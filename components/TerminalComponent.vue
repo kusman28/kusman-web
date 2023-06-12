@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <div class="mt-10">
     <div class="fakeMenu">
       <div class="fakeButtons fakeClose"></div>
       <div class="fakeButtons fakeMinimize"></div>

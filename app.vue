@@ -1,9 +1,15 @@
+<script setup lang="ts">
+
+</script>
 <template>
-  <div>
-    <!-- <NuxtWelcome /> -->
-  <!-- <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1> -->
-  <TerminalComponent/>
+  <NavBarComponent/>
+  <div class="sm:container sm:mx-auto sm:mt-10">
+    <TerminalComponent/>
   </div>
 </template>
+
+
+
+<style scoped>
+
+</style>
