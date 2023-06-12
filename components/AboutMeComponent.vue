@@ -48,6 +48,14 @@
         </div>
         <div>
           <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nuxt_logo.svg/2560px-Nuxt_logo.svg.png"
+            alt="NuxtJS Logo"
+            class="h-10 w-10 object-contain mx-auto mb-2"
+          />
+          <p class="text-center">NuxtJS</p>
+        </div>
+        <div>
+          <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
             alt="ReactJS Logo"
             class="h-10 w-10 object-contain mx-auto mb-2"
@@ -93,14 +101,6 @@
             class="h-10 w-10 object-contain mx-auto mb-2"
           />
           <p class="text-center">PostgreSQL</p>
-        </div>
-        <div>
-          <img
-            src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png?hl=en"
-            alt="Firebase Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">Firebase</p>
         </div>
         <div>
           <img
