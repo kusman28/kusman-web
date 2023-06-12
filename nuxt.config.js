@@ -22,6 +22,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/scss/app.scss',
+    '~/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -41,7 +42,20 @@ export default {
   modules: [
   ],
 
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    postcss: {
+      // plugins: {
+      //   tailwindcss: {},
+      //   autoprefixer: {},
+      // },
+    },
   }
 }
