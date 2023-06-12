@@ -13,7 +13,10 @@ module.exports = {
       colors: {
         primary: '#025464',
         secondary: '#116D6E'
-      }
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'sans-serif']
+      },
     },
   },
   plugins: [],

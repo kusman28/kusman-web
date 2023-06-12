@@ -1,17 +1,16 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="font-sans antialiased">
+  <div class="antialiased">
     <nav class="w-full flex items-center justify-between flex-wrap bg-primary p-6">
       <div class="flex items-center flex-no-shrink text-white mr-6">
         <!-- <p class="line4"><span class="cursor4">|</span>&lt;</p> -->
-        <p class="font-semibold text-xl tracking-tight k"><span class="blinking-cursor">|</span>&lt;. Usman</p>
+        <p class="text-xl tracking-tight k"><span class="blinking-cursor">|</span>&lt;. Usman</p>
       </div>
     </nav>
   </div>
 </template>
 
 <style scoped>
-/* @import "/assets/css/terminal.css"; */
 .k {
   color: #fff;
   -webkit-animation: type 0.5s 1s steps(20, end) forwards;
