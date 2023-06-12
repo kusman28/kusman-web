@@ -1,15 +1,15 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="mt-10">
+  <div class="relative">
     <div class="fakeMenu">
       <div class="fakeButtons fakeClose"></div>
       <div class="fakeButtons fakeMinimize"></div>
       <div class="fakeButtons fakeZoom"></div>
     </div>
-    <div class="fakeScreen">
+    <div class="fakeScreen bg-gray-800">
       <p class="line1">$ whoami<span class="cursor1">_</span></p>
-      <p class="line2">Hello, I'm K. Usman</p>
+      <p class="line2">K. Usman</p>
       <p class="line3">$ cd tech-stacks<span class="cursor3">_</span></p>
       <p class="line5">$ K. Usman\tech-stacks<span class="cursor3">_</span></p>
       <p class="line6">$ ls -a<span class="cursor3">_</span></p>

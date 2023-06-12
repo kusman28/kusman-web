@@ -34,7 +34,7 @@
 }
 
 .fakeScreen {
-  background-color: #151515;
+  /* background-color: #151515; */
   box-sizing: border-box;
   width: 550px;
   margin: 0 auto;

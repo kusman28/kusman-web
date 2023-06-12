@@ -11,8 +11,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#025464',
-        secondary: '#116D6E'
+        nature1: '#AAC8A7',
+        nature2: '#C9DBB2',
+        nature3: '#E3F2C1',
+        nature4: '#F6FFDE',
+        nature5: '#DDFFBB'
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
