@@ -15,7 +15,8 @@ module.exports = {
         nature2: '#C9DBB2',
         nature3: '#E3F2C1',
         nature4: '#F6FFDE',
-        nature5: '#DDFFBB'
+        nature5: '#DDFFBB',
+        dark: '#27374D'
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']

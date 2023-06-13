@@ -28,7 +28,7 @@
         Tech Stacks
       </h5>
       <div
-        class="grid grid-cols-2 md:grid-cols-5 gap-8 items-center dark:text-gray-300 mb-6"
+        class="grid grid-cols-2 md:grid-cols-6 gap-8 items-center dark:text-gray-300 mb-6"
       >
         <div>
           <img
@@ -53,6 +53,14 @@
             class="h-10 w-10 object-contain mx-auto mb-2"
           />
           <p class="text-center">NuxtJS</p>
+        </div>
+        <div>
+          <img
+            src="https://storage.googleapis.com/cms-storage-bucket/0dbfcc7a59cd1cf16282.png"
+            alt="Flutter Logo"
+            class="h-10 w-10 object-contain mx-auto mb-2"
+          />
+          <p class="text-center">Flutter</p>
         </div>
         <div>
           <img
@@ -84,7 +92,7 @@
             alt="Tailwind CSS Logo"
             class="h-10 w-10 object-contain mx-auto mb-2"
           />
-          <p class="text-center">Tailwind CSS</p>
+          <p class="text-center">TailwindCSS</p>
         </div>
         <div>
           <img
@@ -109,6 +117,14 @@
             class="h-10 w-10 object-contain mx-auto mb-2"
           />
           <p class="text-center">Strapi</p>
+        </div>
+        <div>
+          <img
+            src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png?hl=en"
+            alt="Firebase Logo"
+            class="h-10 w-10 object-contain mx-auto mb-2"
+          />
+          <p class="text-center">Firebase</p>
         </div>
       </div>
       <h5
@@ -135,7 +151,11 @@
       <div class="dark:text-gray-300 mb-6">
         <p>
           If you'd like to discuss a project or just chat about software
-          development, feel free to get in touch. You can reach me at <a href="mailto:kusman758@gmail.com" class="text-cyan-500">kusman758@gmail.com</a> I look forward to hearing from you!
+          development, feel free to get in touch. You can reach me at
+          <a href="mailto:kusman758@gmail.com" class="text-cyan-500"
+            >kusman758@gmail.com</a
+          >
+          I look forward to hearing from you!
         </p>
       </div>
     </div>
