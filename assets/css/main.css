@@ -4,5 +4,5 @@
 
 html, body { 
     font-family: poppins;
-    background-color: #AAC8A7;
+    @apply bg-[#AAC8A7];
 }

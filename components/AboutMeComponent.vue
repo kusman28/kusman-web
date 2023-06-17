@@ -1,4 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import tech_stacks from '~/static/tech_stacks.json';
+
+const techStacks = tech_stacks
+
+interface AboutMe {
+  name?: string
+  location?: string
+  description?: string
+}
+
+const me: AboutMe = {
+  name: 'Khalid Usman',
+  location: 'Philippines',
+  description: 'A Full-stack Developer with years of experience in web development.'
+}
+
+</script>
 <template>
   <div>
     <div
@@ -9,17 +26,21 @@
       >
         About Me
       </h5>
+      <!-- Todo: iterate the data correctly.-->
+      <p v-for="tech, index in techStacks" :key="index">
+        {{ tech.name }}
+      </p>
       <div class="dark:text-gray-300 mb-6">
-        <p class="font-normal">Hello there, my name is Khalid Usman.</p>
+        <p class="font-normal">Hello there, my name is {{ me.name }}</p>
         <div class="flex items-center">
-          <span class="text-center">I'm from the Philippines</span>
+          <span class="text-center">I'm from the {{ me.location }}</span>
           <img
             width="50px"
             src="https://static.vecteezy.com/system/resources/previews/012/300/958/original/philippines-flag-free-png.png"
           />
         </div>
         <p>
-          A Full-stack Developer with years of experience in web development.
+          {{ me.description }}
         </p>
       </div>
       <h5
