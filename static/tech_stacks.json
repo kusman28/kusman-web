@@ -1,18 +1,46 @@
 [
     {
-        "image": "adasdsa",
-        "name": "asdasdadas"
+        "name": "Laravel",
+        "imagePath": "./assets/images/Laravel.png"
     },
     {
-        "image": "adasdsa",
-        "name": "asdasdadas"
+        "name": "VueJS",
+        "imagePath": "./assets/images/Vuejs.png"
     },
     {
-        "image": "adasdsa",
-        "name": "asdasdadas"
+        "name": "NuxtJS",
+        "imagePath": "./assets/images/Nuxtjs.png"
     },
     {
-        "image": "adasdsa",
-        "name": "asdasdadas"
+        "name": "Flutter",
+        "imagePath": "./assets/images/Flutter.png"
+    },
+    {
+        "name": "TypeScript",
+        "imagePath": "./assets/images/TypeScript.png"
+    },
+    {
+        "name": "Bootstrap",
+        "imagePath": "./assets/images/Bootstrap.png"
+    },
+    {
+        "name": "TailwindCSS",
+        "imagePath": "./assets/images/TailwindCSS.png"
+    },
+    {
+        "name": "MySQL",
+        "imagePath": "./assets/images/MySQL.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "imagePath": "./assets/images/PostgreSQL.webp"
+    },
+    {
+        "name": "Strapi",
+        "imagePath": "./assets/images/Strapi.png"
+    },
+    {
+        "name": "Firebase",
+        "imagePath": "./assets/images/Firebase.png"
     }
 ]
