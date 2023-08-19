@@ -16,7 +16,7 @@ const me: AboutMe = {
 </script>
 <template>
   <div
-    class="w-full p-10 border-gray-200 rounded-3xl shadow dark:bg-gray-800 grid grid-cols-5 gap-3"
+    class="w-full p-10 border-gray-200 rounded-3xl shadow dark:bg-gray-800 grid grid-cols-5 gap-1 drop-shadow-xl"
   >
     <div class="col-span-3">
       <h5 class="about-me__title">About Me</h5>
@@ -73,7 +73,7 @@ const me: AboutMe = {
 <style lang="scss" scoped>
 .about-me {
   &__title {
-    @apply mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white drop-shadow-lg;
+    @apply mb-2 text-2xl font-bold tracking-wide text-gray-900 dark:text-white drop-shadow-sm;
   }
   &__text {
     @apply dark:text-gray-300 mb-6;
