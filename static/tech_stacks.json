@@ -20,6 +20,10 @@
         "imagePath": "./assets/images/TypeScript.png"
     },
     {
+        "name": "React",
+        "imagePath": "./assets/images/Reactjs.png"
+    },
+    {
         "name": "Bootstrap",
         "imagePath": "./assets/images/Bootstrap.png"
     },

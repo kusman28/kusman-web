@@ -8,6 +8,7 @@ declare global {
     name: string
     location: string
     description: string
+    profile: string
   }
 
   interface TechStacks {

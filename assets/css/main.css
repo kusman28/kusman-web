@@ -4,5 +4,7 @@
 
 html, body { 
     font-family: poppins;
-    @apply bg-nature1;
+    background-image: linear-gradient(to left bottom, #051937, #19325c, #2c4e85, #406caf, #548bdc);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
