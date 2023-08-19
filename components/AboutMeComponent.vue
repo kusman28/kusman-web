@@ -1,20 +1,14 @@
 <script setup lang="ts">
-import tech_stacks from '~/static/tech_stacks.json';
+import tech_stacks from '~/static/tech_stacks.json'
 
 const techStacks = tech_stacks
-
-interface AboutMe {
-  name?: string
-  location?: string
-  description?: string
-}
 
 const me: AboutMe = {
   name: 'Khalid Usman',
   location: 'Philippines',
-  description: 'A Full-stack Developer with years of experience in web development.'
+  description:
+    'A Full-stack Developer with years of experience in web development.'
 }
-
 </script>
 <template>
   <div>
@@ -27,9 +21,9 @@ const me: AboutMe = {
         About Me
       </h5>
       <!-- Todo: iterate the data correctly.-->
-      <p v-for="tech, index in techStacks" :key="index">
+      <!-- <p v-for="tech, index in techStacks" :key="index">
         {{ tech.name }}
-      </p>
+      </p> -->
       <div class="dark:text-gray-300 mb-6">
         <p class="font-normal">Hello there, my name is {{ me.name }}</p>
         <div class="flex items-center">
@@ -51,101 +45,13 @@ const me: AboutMe = {
       <div
         class="grid grid-cols-2 md:grid-cols-6 gap-8 items-center dark:text-gray-300 mb-6"
       >
-        <div>
+        <div v-for="(tech, index) in techStacks" :key="index">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png"
-            alt="Laravel Logo"
+            :src="tech.imagePath"
+            :alt="`${tech.name} Logo`"
             class="h-10 w-10 object-contain mx-auto mb-2"
           />
-          <p class="text-center">Laravel</p>
-        </div>
-        <div>
-          <img
-            src="https://vuejs.org/images/logo.png"
-            alt="VueJS Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">VueJS</p>
-        </div>
-        <div>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Nuxt_logo.svg/2560px-Nuxt_logo.svg.png"
-            alt="NuxtJS Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">NuxtJS</p>
-        </div>
-        <div>
-          <img
-            src="https://storage.googleapis.com/cms-storage-bucket/0dbfcc7a59cd1cf16282.png"
-            alt="Flutter Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">Flutter</p>
-        </div>
-        <div>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-            alt="ReactJS Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">ReactJS</p>
-        </div>
-        <div>
-          <img
-            src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png"
-            alt="TypeScript Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">TypeScript</p>
-        </div>
-        <div>
-          <img
-            src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png"
-            alt="Bootstrap Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">Bootstrap</p>
-        </div>
-        <div>
-          <img
-            src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"
-            alt="Tailwind CSS Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">TailwindCSS</p>
-        </div>
-        <div>
-          <img
-            src="https://pngimg.com/uploads/mysql/mysql_PNG35.png"
-            alt="MySQL Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">MySQL</p>
-        </div>
-        <div>
-          <img
-            src="https://cdn.iconscout.com/icon/free/png-256/postgresql-11-1175122.png"
-            alt="PostgreSQL Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">PostgreSQL</p>
-        </div>
-        <div>
-          <img
-            src="https://assets.super.so/e7c0f16c-8bd3-4c76-8075-4c86f986e1b2/images/32f3a89c-99c4-466f-8536-dd75f65fa320/Strapi-Monogram.png"
-            alt="Strapi Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">Strapi</p>
-        </div>
-        <div>
-          <img
-            src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png?hl=en"
-            alt="Firebase Logo"
-            class="h-10 w-10 object-contain mx-auto mb-2"
-          />
-          <p class="text-center">Firebase</p>
+          <p class="text-center">{{ tech.name }}</p>
         </div>
       </div>
       <h5
