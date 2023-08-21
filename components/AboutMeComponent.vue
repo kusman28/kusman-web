@@ -11,7 +11,7 @@ const me: AboutMe = {
   location: 'Philippines, Zamboanga City.',
   description:
     'A Full-stack developer with years of relevant experience in Web and Mobile development.',
-  profile: './assets/images/K.jpg'
+  profile: './K.jpg'
 }
 </script>
 <template>
@@ -35,7 +35,7 @@ const me: AboutMe = {
           <img
             :src="`${tech.imagePath}`"
             :alt="`${tech.name} Logo`"
-            class="h-10 w-10 object-contain mx-auto mb-2 hover:grayscale-[50%]"
+            class="h-10 w-10 object-contain mx-auto mb-2 hover:grayscale-[50%] hover:rotate-45"
           />
           <p class="text-center">{{ tech.name }}</p>
         </div>
@@ -79,7 +79,7 @@ const me: AboutMe = {
     @apply dark:text-gray-300 mb-6;
   }
   &__profile {
-    @apply rounded-full w-80 h-80 object-cover drop-shadow-lg hover:grayscale-[50%];
+    @apply rounded-full w-80 h-80 object-cover drop-shadow-lg grayscale-[40%];
   }
 }
 </style>
