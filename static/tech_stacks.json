@@ -1,50 +1,50 @@
 [
     {
         "name": "Laravel",
-        "imagePath": "./assets/images/Laravel.png"
+        "imagePath": "./Laravel.png"
     },
     {
         "name": "VueJS",
-        "imagePath": "./assets/images/Vuejs.png"
+        "imagePath": "./Vuejs.png"
     },
     {
         "name": "NuxtJS",
-        "imagePath": "./assets/images/Nuxtjs.png"
+        "imagePath": "./Nuxtjs.png"
     },
     {
         "name": "Flutter",
-        "imagePath": "./assets/images/Flutter.png"
+        "imagePath": "./Flutter.png"
     },
     {
         "name": "TypeScript",
-        "imagePath": "./assets/images/TypeScript.png"
+        "imagePath": "./TypeScript.png"
     },
     {
         "name": "React",
-        "imagePath": "./assets/images/Reactjs.png"
+        "imagePath": "./Reactjs.png"
     },
     {
         "name": "Bootstrap",
-        "imagePath": "./assets/images/Bootstrap.png"
+        "imagePath": "./Bootstrap.png"
     },
     {
         "name": "TailwindCSS",
-        "imagePath": "./assets/images/TailwindCSS.png"
+        "imagePath": "./TailwindCSS.png"
     },
     {
         "name": "MySQL",
-        "imagePath": "./assets/images/MySQL.png"
+        "imagePath": "./MySQL.png"
     },
     {
         "name": "PostgreSQL",
-        "imagePath": "./assets/images/PostgreSQL.webp"
+        "imagePath": "./PostgreSQL.webp"
     },
     {
         "name": "Strapi",
-        "imagePath": "./assets/images/Strapi.png"
+        "imagePath": "./Strapi.png"
     },
     {
         "name": "Firebase",
-        "imagePath": "./assets/images/Firebase.png"
+        "imagePath": "./Firebase.png"
     }
 ]
