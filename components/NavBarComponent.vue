@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 <template>
   <nav class="w-full flex items-center justify-between flex-wrap bg-dark p-6">
-    <div class="flex items-center flex-no-shrink mr-6 text-white">
+    <div
+      class="flex items-center flex-no-shrink mr-6 text-white overflow-hidden"
+    >
       <p class="text-xl tracking-tight k">
         <span class="blinking-cursor">|</span>&lt;. Usman
       </p>
