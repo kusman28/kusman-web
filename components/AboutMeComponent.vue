@@ -11,7 +11,7 @@ const me: AboutMe = {
   location: 'Philippines, Zamboanga City.',
   description:
     'A Full-stack developer with years of relevant experience in Web and Mobile development.',
-  profile: './K.jpg'
+  profile: './KKK.jpg'
 }
 </script>
 <template>
@@ -79,7 +79,7 @@ const me: AboutMe = {
     @apply dark:text-gray-300 mb-6;
   }
   &__profile {
-    @apply rounded-full w-80 h-80 object-cover drop-shadow-lg grayscale-[40%];
+    @apply rounded-full w-80 h-80 object-cover drop-shadow-lg;
   }
 }
 </style>
