@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
   <NavBarComponent />
-  <div class="p-14">
+  <div class="md:p-14 p-5">
     <AboutMeComponent />
   </div>
   <!-- <div class="sm:container sm:mx-auto sm:mt-10">
