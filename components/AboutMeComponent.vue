@@ -11,7 +11,7 @@ const me: AboutMe = {
   location: 'Philippines, Zamboanga City.',
   description:
     'A Full-stack developer with years of relevant experience in Web and Mobile development.',
-  profile: './KKK.jpg'
+  profile: './K.jpg'
 }
 </script>
 <template>
@@ -19,7 +19,7 @@ const me: AboutMe = {
     class="w-full border-gray-200 rounded-3xl shadow dark:bg-gray-800 grid grid-cols-5 gap-1 drop-shadow-xl"
   >
     <div class="md:col-span-3 col-span-5">
-      <img class="md:hidden rounded-t-3xl" :src="`${me.profile}`" />
+      <img class="md:hidden rounded-t-5xl" :src="`${me.profile}`" />
       <div class="md:p-10 p-5">
         <h5 class="about-me__title">About Me</h5>
         <div class="about-me__text">
