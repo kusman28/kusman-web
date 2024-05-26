@@ -11,12 +11,16 @@ const me: AboutMe = {
   location: 'Philippines, Zamboanga City.',
   description:
     'A Full-stack developer with years of relevant experience in Web and Mobile development.',
-  profile: './K.jpg'
+  profile: './K.jpeg'
+}
+
+const navigateTo = (path: string) => {
+  window.location.href = path
 }
 </script>
 <template>
   <div
-    class="w-full border-gray-200 rounded-3xl shadow dark:bg-gray-800 grid grid-cols-5 gap-1 drop-shadow-xl"
+    class="w-full border-gray-200 rounded-3xl shadow bg-gray-800 grid grid-cols-5 gap-1 drop-shadow-xl"
   >
     <div class="md:col-span-3 col-span-5">
       <img class="md:hidden rounded-t-5xl" :src="`${me.profile}`" />
@@ -31,7 +35,7 @@ const me: AboutMe = {
         </div>
         <h5 class="about-me__title">Tech Stacks</h5>
         <div
-          class="grid grid-cols-3 md:grid-cols-6 gap-8 items-center dark:text-gray-300 mb-6"
+          class="grid grid-cols-3 md:grid-cols-6 gap-8 items-center text-gray-300 mb-6"
         >
           <div v-for="(tech, index) in techStacks" :key="index">
             <img
@@ -76,10 +80,10 @@ const me: AboutMe = {
 <style lang="scss" scoped>
 .about-me {
   &__title {
-    @apply mb-2 text-2xl font-bold tracking-wide text-gray-900 dark:text-white drop-shadow-sm;
+    @apply mb-2 text-2xl font-bold tracking-wide text-white drop-shadow-sm cursor-pointer;
   }
   &__text {
-    @apply dark:text-gray-300 mb-6;
+    @apply text-gray-300 mb-6;
   }
   &__profile {
     @apply rounded-full w-80 h-80 object-cover drop-shadow-lg;
