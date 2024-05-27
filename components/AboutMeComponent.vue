@@ -72,7 +72,10 @@ const navigateTo = (path: string) => {
       </div>
     </div>
     <div class="col-span-2 mx-auto my-auto">
-      <img class="about-me__profile md:block hidden" :src="`${me.profile}`" />
+      <img
+        class="about-me__profile md:block hidden hover:scale-125"
+        :src="`${me.profile}`"
+      />
     </div>
   </div>
 </template>
@@ -86,7 +89,7 @@ const navigateTo = (path: string) => {
     @apply text-gray-300 mb-6;
   }
   &__profile {
-    @apply rounded-full w-80 h-80 object-cover drop-shadow-lg;
+    @apply rounded-full w-96 h-96 object-cover drop-shadow-lg;
   }
 }
 </style>
